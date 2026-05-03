@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <div class="inp">
+       <b> Full Name:</b>
+    <input type="text" placeholder=" Enter your Full Name" required><br><br>
+    <b>Email:</b>
+    <input type="email" placeholder="Enter your Email" required><br><br>
+    <b>Password:</b>
+    <input type="password" placeholder="Enter your Password" required>
+    <br><br>
+    <b>Age:</b>
+    <input type="number" placeholder="Enter your Age" required>
+    <br><br>
+    </div>
+    <div>
+    <b>Gender:</b>
+    <label for="Male">
+    <input type="radio" value="Male"></label>Male
+    
+    <label for="Female">
+    <input type="radio" value="Female"> </label>Female
+ 
+    <label for="Other">
+        <input type="radio" value="Other"></label>Other
+
+    </div>
+    <br>
+    <b>
+    Date Of Birth:</b>
+    <input type="date" placeholder="Enter your Date of Birth" required>
+<br><br>
+<b>Country:</b>
+    <select class="select">
+        <label>
+            <option value="Pakistan">Pakistan</option>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="USA">USA</option>
+            <option value="UK">Uk</option>
+        </label>
+        
+    </select>
+    <br><br>
+
+    <button class="btn">Submit</button>
+    
+    </form>
+</body>
+</html>
