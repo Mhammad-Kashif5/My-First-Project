@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    
+}
+form{
+    margin: 5px;
+    padding: 3px;
+    
+}
+form input{
+    
+    margin: 5px;
+    padding: 5px;
+}
+
+.inp{
+    width: 200px;
+}
+.btn{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    transform: scale(0.3s);
+
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
